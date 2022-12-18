@@ -14,7 +14,6 @@ public class BannerRepository {
 
 	public void save(Banner banner) {
 		banners.add(banner);
-		System.out.println("BannerRepository :: banner kaydedildi." + banner);
 	}
 
 	public List<Banner> findAll() {
